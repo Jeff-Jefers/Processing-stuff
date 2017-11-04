@@ -20,22 +20,22 @@ class Game {
   void keyPressed() {
     if (key == 'q')
     {
-      bob.y = bob.y-10;
+      bob.y = bob.y-5;
     }
     
     if (key == 'a')
     {
-      bob.y = bob.y+10;
+      bob.y = bob.y+5;
     } 
     
     if (key == 'o')
     {
-      jeff.y = jeff.y-10;
+      jeff.y = jeff.y-5;
     } 
     
     if (key == 'l')
     {
-      jeff.y = jeff.y+10;
+      jeff.y = jeff.y+5;
     }
   }
 }
